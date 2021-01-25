@@ -1,0 +1,3 @@
+#EXTM3U
+#EXTINF:0,Alb Music RTMP
+http://localhost/?r=rtmp://albmusic.dyndns.tv:1935/albuk/albmus.stream&W=https://kodi.al/player_plugins/player.swf&p=http://kodi.al

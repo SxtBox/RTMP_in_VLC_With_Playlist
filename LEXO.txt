@@ -1,0 +1,21 @@
+NESE KENI TE STARTUAR SERVER NE LOCALHOST rtmpdump NUK PUNON SE KA SI DEFAULT PORT 80
+DUHET TE NDALONI SERVERIN QE KENI NE LOCAL EDHE TE STARTONI rtmpdump 
+
+NGARKO PLUGINS /player_plugins/ NE SERVERIN TEND
+
+HAP Playlist.m3u EDHE NDYSHOJI PATH https://kodi.al/player_plugins/player.swf ME https://YOUR SERVER/player_plugins/player.swf
+
+NE Playlist.m3u VETEM rtmp LINK DUHET TE NDRYSHOSH
+
+PERSH
+#EXTINF:0,CHANNEL NAME
+http://localhost/?r=RTMP LINK&W=https://PATH TO/player.swf&p=http://kodi.al
+
+?r= RTMP LINK
+&p= Referring URL
+
+Start_Player.bat STARTON LOCAL SERVER
+Start_Player_Hidden_Console STARTON SERVERIN PA KONSOLEN E rtmpdump
+
+Releases
+https://rtmpdump.mplayerhq.hu/
